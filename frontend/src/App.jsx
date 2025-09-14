@@ -67,7 +67,7 @@ function App() {
 
               {/* Authenticated / Main Pages */}
               <Route path="/" element={<Home />} />
-              <Route path="/create-post" element={<CreatePost />} />
+              <Route path="/create" element={<CreatePost />} />
               <Route path="/post/:id" element={<PostDetail />} />
               <Route path="/bookmarks" element={<Bookmarks />} />
 
